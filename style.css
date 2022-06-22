@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    width: 100%;
+    height: 100vh;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.player ,.computer{
+    border: 7px solid pink;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.player h1 ,.computer h1{
+   text-align: center;
+   font-weight: bold;
+   font-size: 50px;
+   color: lightblue;
+
+}
+.player .images ,.computer .images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.player .images img ,.computer .images img{
+    width: 200px;
+}
