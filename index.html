@@ -7,35 +7,75 @@
     <title>Document</title>
     <!-- css link -->
     <link href="style.css" rel="stylesheet">
+    <!-- js link -->
+    <script src="script.js" defer></script>
 </head>
 <body>
 
+  <div class="images">
+    <img src="img/rock.png" class="Rock">
+    <img src="img/paper.png" class="Paper">
+    <img src="img/scissors.png" class="Scissors">
+  </div>
 
-    <section class="flex">
-        <!-- start player part -->
-        <div class="player">
-          <h1>player</h1>
-          <div class="images">
-            <img src="img/paper.png" id="paper">
-            <img src="img/rock.png" id="rock">
-            <img src="img/scissors.png" id="scissors">
-          </div>
-          <div id="select_player"></div>
-        </div>
-        <!-- end player part -->
-        <!-- start computer part -->
-        <div class="computer">
-            <h1>computer</h1>
-            <div class="images">
-              <img src="img/paper.png" id="paper">
-              <img src="img/rock.png" id="rock">
-              <img src="img/scissors.png" id="scissors">
-            </div>
-            <div id="select_player"></div>
-        </div>
-        <!-- end computer part -->
-    </section>
-    <script src="script.js"></script>
+ <div class="displayes">
+  <div class="computer">
+    <h1>Computer</h1>
+    <p id="computerchoice"></p>
+    <p id="scorecomputer" ></p>
+  </div>
+  <div class="Player">
+    <h1>Player</h1>
+    <p  id="playerchoice" ></p>
+    <p id="scoreplayer"></p>
+  </div>
+ </div>
+ <!-- <h2>Computer choice:<span id="computerchoice"></span></h2>
+ <h2>player choice:<span id="playerchoice"></span></h2>
+ <p>player score: <span id="scoreplayer"></span>   </p>  
+ <p> computer score : <span id="scorecomputer"></span></p> -->
+ <h2>your result:<span id ="result"></span></h2>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+   
     
 </body>
 </html>
